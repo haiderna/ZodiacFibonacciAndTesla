@@ -11,7 +11,7 @@ import SwiftUI
 struct ZodiacFibonacciAndTeslaApp: App {
     var body: some Scene {
         WindowGroup {
-            FibonacciView()
+            ContentView()
         }
     }
 }

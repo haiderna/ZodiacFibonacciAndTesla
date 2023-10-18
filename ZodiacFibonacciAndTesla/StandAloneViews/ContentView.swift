@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        TabView {
+            TutorialViewStartView()
+                .tabItem {
+                    Label("Tutorial", systemImage: "1.square.fill")
+                }
+                .tag(1)
             
+            ZodiacTeslaFibComboView()
+                .tabItem {
+                    Label("Num Reduce", systemImage: "2.square.fill")
+                }
+                .tag(2)
         }
     }
 }

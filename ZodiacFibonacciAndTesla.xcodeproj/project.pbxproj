@@ -8,8 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A40775D42A3BB23B001811E5 /* ZodiacTeslaFibComboView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40775D32A3BB23B001811E5 /* ZodiacTeslaFibComboView.swift */; };
+		A4151BC72A42587D00AB19FA /* Tesla369ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4151BC62A42587C00AB19FA /* Tesla369ViewModelTests.swift */; };
+		A439FFC52AAA8FE6004F9522 /* ZodiacSigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439FFC42AAA8FE6004F9522 /* ZodiacSigns.swift */; };
+		A43D21EF2AA678940052428D /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D21EE2AA678940052428D /* Calculator.swift */; };
+		A43D21F12AA67BF80052428D /* TutorialViewStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D21F02AA67BF70052428D /* TutorialViewStartView.swift */; };
 		A45AAC432A3A6E0600BE97AF /* FibonacciView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AAC422A3A6E0600BE97AF /* FibonacciView.swift */; };
 		A45AAC452A3A6E8B00BE97AF /* NumberReductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AAC442A3A6E8B00BE97AF /* NumberReductionView.swift */; };
+		A471B7082A3D06FD0060DED7 /* Tesla124875View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471B7072A3D06FD0060DED7 /* Tesla124875View.swift */; };
+		A4A59E872AA839F600061D2F /* FibonacciAndReduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A59E862AA839F600061D2F /* FibonacciAndReduction.swift */; };
+		A4A59E892AA83A3900061D2F /* FibonacciAndReductionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A59E882AA83A3900061D2F /* FibonacciAndReductionViewModel.swift */; };
+		A4A59E8B2AA83B5300061D2F /* Tesla369View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A59E8A2AA83B5300061D2F /* Tesla369View.swift */; };
+		A4A59E8D2AA83BB400061D2F /* Tesla369ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A59E8C2AA83BB400061D2F /* Tesla369ViewModel.swift */; };
 		A4C523172A2FDEE400B3C58E /* ZodiacFibonacciAndTeslaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C523162A2FDEE400B3C58E /* ZodiacFibonacciAndTeslaApp.swift */; };
 		A4C523192A2FDEE400B3C58E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C523182A2FDEE400B3C58E /* ContentView.swift */; };
 		A4C5231B2A2FDEE800B3C58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C5231A2A2FDEE800B3C58E /* Assets.xcassets */; };
@@ -39,8 +48,17 @@
 
 /* Begin PBXFileReference section */
 		A40775D32A3BB23B001811E5 /* ZodiacTeslaFibComboView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacTeslaFibComboView.swift; sourceTree = "<group>"; };
+		A4151BC62A42587C00AB19FA /* Tesla369ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tesla369ViewModelTests.swift; sourceTree = "<group>"; };
+		A439FFC42AAA8FE6004F9522 /* ZodiacSigns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSigns.swift; sourceTree = "<group>"; };
+		A43D21EE2AA678940052428D /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		A43D21F02AA67BF70052428D /* TutorialViewStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewStartView.swift; sourceTree = "<group>"; };
 		A45AAC422A3A6E0600BE97AF /* FibonacciView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciView.swift; sourceTree = "<group>"; };
 		A45AAC442A3A6E8B00BE97AF /* NumberReductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberReductionView.swift; sourceTree = "<group>"; };
+		A471B7072A3D06FD0060DED7 /* Tesla124875View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tesla124875View.swift; sourceTree = "<group>"; };
+		A4A59E862AA839F600061D2F /* FibonacciAndReduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciAndReduction.swift; sourceTree = "<group>"; };
+		A4A59E882AA83A3900061D2F /* FibonacciAndReductionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciAndReductionViewModel.swift; sourceTree = "<group>"; };
+		A4A59E8A2AA83B5300061D2F /* Tesla369View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tesla369View.swift; sourceTree = "<group>"; };
+		A4A59E8C2AA83BB400061D2F /* Tesla369ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tesla369ViewModel.swift; sourceTree = "<group>"; };
 		A4C523132A2FDEE400B3C58E /* ZodiacFibonacciAndTesla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZodiacFibonacciAndTesla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C523162A2FDEE400B3C58E /* ZodiacFibonacciAndTeslaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacFibonacciAndTeslaApp.swift; sourceTree = "<group>"; };
 		A4C523182A2FDEE400B3C58E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,12 +100,34 @@
 		A45AAC412A3A6DE600BE97AF /* StandAloneViews */ = {
 			isa = PBXGroup;
 			children = (
+				A4ED781B2A37D51800B94C80 /* CustomShapes.swift */,
+				A439FFC42AAA8FE6004F9522 /* ZodiacSigns.swift */,
 				A45AAC422A3A6E0600BE97AF /* FibonacciView.swift */,
 				A45AAC442A3A6E8B00BE97AF /* NumberReductionView.swift */,
 				A4C523182A2FDEE400B3C58E /* ContentView.swift */,
 				A40775D32A3BB23B001811E5 /* ZodiacTeslaFibComboView.swift */,
+				A43D21F02AA67BF70052428D /* TutorialViewStartView.swift */,
 			);
 			path = StandAloneViews;
+			sourceTree = "<group>";
+		};
+		A4A59E8E2AA83C1C00061D2F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A4A59E882AA83A3900061D2F /* FibonacciAndReductionViewModel.swift */,
+				A4A59E8C2AA83BB400061D2F /* Tesla369ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A4B762C82AE04CC800F16D5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A471B7072A3D06FD0060DED7 /* Tesla124875View.swift */,
+				A4A59E8A2AA83B5300061D2F /* Tesla369View.swift */,
+				A4A59E862AA839F600061D2F /* FibonacciAndReduction.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A4C5230A2A2FDEE300B3C58E = {
@@ -113,9 +153,11 @@
 		A4C523152A2FDEE400B3C58E /* ZodiacFibonacciAndTesla */ = {
 			isa = PBXGroup;
 			children = (
+				A4B762C82AE04CC800F16D5D /* Views */,
+				A4A59E8E2AA83C1C00061D2F /* ViewModels */,
 				A45AAC412A3A6DE600BE97AF /* StandAloneViews */,
 				A4C523162A2FDEE400B3C58E /* ZodiacFibonacciAndTeslaApp.swift */,
-				A4ED781B2A37D51800B94C80 /* CustomShapes.swift */,
+				A43D21EE2AA678940052428D /* Calculator.swift */,
 				A4C5231A2A2FDEE800B3C58E /* Assets.xcassets */,
 				A4C5231C2A2FDEE800B3C58E /* Preview Content */,
 			);
@@ -134,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				A4C523272A2FDEE900B3C58E /* ZodiacFibonacciAndTeslaTests.swift */,
+				A4151BC62A42587C00AB19FA /* Tesla369ViewModelTests.swift */,
 			);
 			path = ZodiacFibonacciAndTeslaTests;
 			sourceTree = "<group>";
@@ -277,11 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A471B7082A3D06FD0060DED7 /* Tesla124875View.swift in Sources */,
+				A43D21F12AA67BF80052428D /* TutorialViewStartView.swift in Sources */,
 				A4ED781C2A37D51800B94C80 /* CustomShapes.swift in Sources */,
 				A40775D42A3BB23B001811E5 /* ZodiacTeslaFibComboView.swift in Sources */,
 				A4C523192A2FDEE400B3C58E /* ContentView.swift in Sources */,
 				A4C523172A2FDEE400B3C58E /* ZodiacFibonacciAndTeslaApp.swift in Sources */,
+				A43D21EF2AA678940052428D /* Calculator.swift in Sources */,
 				A45AAC432A3A6E0600BE97AF /* FibonacciView.swift in Sources */,
+				A4A59E872AA839F600061D2F /* FibonacciAndReduction.swift in Sources */,
+				A4A59E8D2AA83BB400061D2F /* Tesla369ViewModel.swift in Sources */,
+				A439FFC52AAA8FE6004F9522 /* ZodiacSigns.swift in Sources */,
+				A4A59E8B2AA83B5300061D2F /* Tesla369View.swift in Sources */,
+				A4A59E892AA83A3900061D2F /* FibonacciAndReductionViewModel.swift in Sources */,
 				A45AAC452A3A6E8B00BE97AF /* NumberReductionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4C523282A2FDEE900B3C58E /* ZodiacFibonacciAndTeslaTests.swift in Sources */,
+				A4151BC72A42587D00AB19FA /* Tesla369ViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
