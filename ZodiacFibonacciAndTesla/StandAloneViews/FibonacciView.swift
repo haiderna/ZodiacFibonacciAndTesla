@@ -10,7 +10,7 @@ import SwiftUI
 
 // built with ChatGPT 
 struct FibonacciView: View {
-    let fibonacciNumbers: [Int] = [0, 1, 1, 2, 3, 5, 8, 13]
+    let fibonacciNumbers: [Int] = [1, 1, 2, 3, 5, 8, 13]
         
         var body: some View {
             VStack {
@@ -27,12 +27,15 @@ struct FibonacciView: View {
                     }
                     
                     VStack {
-                        Text("")
-                            .padding(.bottom, 8)
+//                        Text("")
+//                            .padding(.bottom, 8)
                         
                         ForEach(0..<fibonacciNumbers.count) { index in
-                            if index == 0 || index == 1 {
-                                Text("")
+                            if index == 0 {
+                                Text("     ")
+                                    .padding(.bottom, 8)
+                            } else if index == 1 {
+                                Text("0 + 1")
                                     .padding(.bottom, 8)
                             } else {
                                 Text("\(fibonacciNumbers[index-1]) + \(fibonacciNumbers[index-2])")
@@ -40,6 +43,9 @@ struct FibonacciView: View {
                             }
                         }
                     }
+                }
+                NavigationLink(destination: NumberReductionView()) {
+                    Text("Next")
                 }
             }
         }
